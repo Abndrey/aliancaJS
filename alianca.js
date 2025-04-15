@@ -1,26 +1,36 @@
-alert ("agendamento");
+alert ("Cadatro aliança");
 
-let totalAgendamento = 2;
-let agendamentoAtual = 0;
+let totalCadastro = 2;
+let cadastroDoCliente = 0;
 
-let responsavel = []; 
-let dataEntrada = []; 
+let cliente = []; 
+let ourives = [];
+let modelo = []; 
+ 
 
 
 
-while (agendamentoAtual <= totalAgendamento) {
-    let entrada = (prompt('Digite a data e o horário de entrada do veículo: '));
-    dataEntrada[agendamentoAtual] = entrada;
+while (cadastroDoCliente <= totalCadastro) {
+    let nome = (prompt('Digite o seu nome: '));
+    cliente[cadastroDoCliente] = cliente;
 
-    let responsavelNome = (prompt('Digite o responsável pelo veículo: '));
-    responsavel[agendamentoAtual] = responsavelNome;
+    let email = (prompt('Digite o seu email: '));
+   ourives[cadastroDoCliente] = ourives;
 
-    agendamentoAtual++;
+    let telefone = (prompt('Digite o seu telefone: '));
+    modelo[cadastroDoCliente] = modelo;
+
+   
+
+    cadastroAtual++;
 }
 
-for (let contador = 0; contador <= totalAgendamento; contador++) {
+for (let contador = 0; contador <= cadastroAtual; contador++) {
     console.log ("=========================================");
-    console.log (responsavel[contador]);
-    console.log (dataEntrada[contador]);
+    console.log (cliente[contador]);
+
+    console.log (ourives[contador]);
+
+    console.log (modelo[contador]);
     console.log ("=========================================");
 }
